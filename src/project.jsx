@@ -77,7 +77,7 @@ const Projects = () => {
                         
                         <div className="social-icons">
                             <p>Follow us </p>
-                            <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.instagram.com/iota_ju?igsh=MWo0YXlzOXJ3MHp6bA==" target="_blank" rel="noopener noreferrer">
                                 <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" />
                             </a>
                             <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
