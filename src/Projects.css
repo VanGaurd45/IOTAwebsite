@@ -254,9 +254,27 @@ footer .foot {
     font-size: 1.2rem;
 }
 .map-container {
-  margin-left: 9rem;
+  margin-left: 3rem;
   margin-top: 2rem;
   border-radius: 0.5rem;
   overflow: hidden;
   
 }
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons img {
+  width: 1.5rem;
+  height: 1.5rem;
+  filter: invert(1); /* makes icon white */
+  transition: transform 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+  filter: invert(59%) sepia(39%) saturate(574%) hue-rotate(148deg) brightness(94%) contrast(90%);
+}
+
