@@ -74,7 +74,20 @@ const Projects = () => {
                         <a href="#">Contact</a>
                     </div>
                     <div className="foot">
-                        <p> &#128488; Let's chat</p>
+                        
+                        <div className="social-icons">
+                            <p>Follow us </p>
+                            <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" />
+                            </a>
+                            <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+                                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" />
+                            </a>
+                        </div>
+
                         <div className="map-container">
                             <iframe
                                 title="Jadavpur University Map"
